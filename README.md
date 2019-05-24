@@ -65,8 +65,8 @@ export default {
 
 ## Credit
 
-The majority of the credit for this plugin goes to the author of and contributors to the underlying
-[leaflet-draw-toolbar toolba](https://github.com/justinmanley/leaflet-draw-toolbar), and of course
+The majority of the credit for this plugin goes to the author and contributors of the underlying
+[leaflet-draw-toolbar toolbar](https://github.com/justinmanley/leaflet-draw-toolbar), and of course
 the plugin wouldn't be possible without Vue, Leaflet, and Vue2Leaflet.
 
 

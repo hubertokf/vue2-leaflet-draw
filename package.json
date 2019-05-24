@@ -31,7 +31,6 @@
     "vue": "^2.6.10",
     "leaflet": "^1.5.1",
     "leaflet-draw": "^1.0.4",
-    "leaflet-polylinedecorator": "^1.6.0",
     "leaflet-toolbar": "^0.4.0-alpha.2"
   },
   "devDependencies": {
@@ -39,14 +38,16 @@
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
     "babel-eslint": "^10.0.1",
+    "css-loader": "2.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue2-leaflet": "^2.1.1",
-    "vue-template-compiler": "^2.5.21",
     "less": "^3.8.1",
-    "less-loader": "^4.1.0",
+    "less-loader": "4.1.0",
     "node-sass": "^4.10.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "style-loader": "0.23.1",
+    "vue-template-compiler": "^2.5.21",
+    "vue2-leaflet": "^2.1.1"
   },
   "eslintConfig": {
     "root": true,
@@ -67,6 +68,10 @@
       "autoprefixer": {}
     }
   },
+  "main": "dist/LDrawToolbar.common.js",
+  "files": [
+    "dist/*.css"
+    ],
   "browserslist": [
     "> 1%",
     "last 2 versions"
