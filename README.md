@@ -1,5 +1,15 @@
 # vue2-leaflet-draw-toolbar
 
+<a href="https://www.npmjs.com/package/vue2-leaflet-draw-toolbar.svg">
+  <img src="https://img.shields.io/npm/dw/vue2-leaflet-draw-toolbar.svg" alt="Downloads">
+</a>
+<a href="https://www.npmjs.com/package/vue2-leaflet-draw-toolbar.svg">
+  <img src="https://img.shields.io/npm/v/vue2-leaflet-draw-toolbar.svg" alt="Version">
+</a>
+<a href="https://www.npmjs.com/package/vue2-leaflet-draw-toolbar.svg">
+  <img src="https://img.shields.io/npm/l/vue2-leaflet-draw-toolbar.svg" alt="License">
+</a>
+
 This is a [Vue2Leaflet](https://github.com/KoRiGaN/Vue2Leaflet) plugin port to provide the
 [leaflet-draw-toolbar](https://github.com/justinmanley/leaflet-draw-toolbar) control
 on [Leaflet](https://leafletjs.com/) maps in [Vue](https://vuejs.org/) applications.
