@@ -47,7 +47,8 @@
     "sass-loader": "^7.1.0",
     "style-loader": "0.23.1",
     "vue-template-compiler": "^2.5.21",
-    "vue2-leaflet": "^2.1.1"
+    "vue2-leaflet": "^2.1.1",
+    "tar": ">=4.4.8"
   },
   "eslintConfig": {
     "root": true,
@@ -71,7 +72,7 @@
   "main": "dist/LDrawToolbar.common.js",
   "files": [
     "dist/*.css"
-    ],
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions"
