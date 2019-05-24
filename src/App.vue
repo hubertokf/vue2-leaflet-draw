@@ -1,0 +1,68 @@
+<template>
+  <div style="display: none;">
+    <slot v-if="ready"/>
+  </div>
+</template>
+
+<script>
+import ColorPicker from './ColorPicker';
+import Draw from './draw';
+import Edit from './edit';
+
+export default {
+
+  mixins: [
+    ColorPicker,
+    Draw,
+    Edit,
+  ],
+
+}
+
+</script>
+
+<style lang="less" scoped>
+.leaflet-draw-toolbar.leaflet-control-toolbar {
+  margin-top: 12px;
+  margin-top: 12px;
+}
+
+// NOTE: This is bad because it makes it impossible to use Leaflet.draw and Leaflet.toolbar on the same page.
+.leaflet-draw-toolbar a {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.leaflet-retina .leaflet-draw-toolbar a {
+  background-image: none;
+  background-size: 300px 30px;
+}
+
+.leaflet-draw-toolbar {
+  .leaflet-draw-edit-edit,
+  .leaflet-draw-edit-remove,
+  .leaflet-draw-draw-polygon,
+  .leaflet-draw-draw-polyline,
+  .leaflet-draw-draw-circle,
+  .leaflet-draw-draw-marker,
+  .leaflet-draw-draw-rectangle {
+    background-image: url("images/spritesheet.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.leaflet-retina {
+  .leaflet-draw-toolbar {
+    .leaflet-draw-edit-edit,
+    .leaflet-draw-edit-remove,
+    .leaflet-draw-draw-polygon,
+    .leaflet-draw-draw-polyline,
+    .leaflet-draw-draw-circle,
+    .leaflet-draw-draw-marker,
+    .leaflet-draw-draw-rectangle {
+      background-image: url("images/spritesheet-2x.png");
+      background-size: 300px 30px;
+    }
+  }
+}
+</style>

@@ -1,0 +1,74 @@
+{
+  "name": "vue2-leaflet-draw-toolbar",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name LDrawToolbar",
+    "lint": "vue-cli-service lint",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubertokf/vue2-leaflet-draw-toolbar.git"
+  },
+  "homepage": "https://github.com/hubertokf/vue2-leaflet-draw-toolbar#readme",
+  "keywords": [
+    "vue",
+    "leaflet",
+    "vue2leaflet",
+    "draw",
+    "toolbar"
+  ],
+  "author": "Huberto Kaiser Filho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hubertokf/vue2-leaflet-draw-toolbar/issues"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "leaflet": "^1.5.1",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-polylinedecorator": "^1.6.0",
+    "leaflet-toolbar": "^0.4.0-alpha.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue2-leaflet": "^2.1.1",
+    "vue-template-compiler": "^2.5.21",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
