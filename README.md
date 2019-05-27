@@ -72,12 +72,24 @@ export default {
 };
 ```
 
+## Todo
+
+  - [x] Create a Vue2 component from leaflet-draw-toolbar
+  - [x] Deploy to npm
+  - [ ] Pass events to Vue2 component
+  - [ ] Finish edit mode on map click
+  - [ ] Prevent to create another toolbar on layer click
+  - [ ] Create Vue2 component for each toolbar component and action
+  - [ ] Add option to show button to save
+  - [ ] Add option to create menus and submenus
+
+
 
 ## Credit
 
 The majority of the credit for this plugin goes to the author and contributors of the underlying
-[leaflet-draw-toolbar toolbar](https://github.com/justinmanley/leaflet-draw-toolbar), and of course
-the plugin wouldn't be possible without Vue, Leaflet, and Vue2Leaflet.
+[leaflet-draw-toolbar](https://github.com/justinmanley/leaflet-draw-toolbar), and of course
+the plugin wouldn't be possible without [Vue](https://vuejs.org/), [Leaflet](https://leafletjs.com/), and [Vue2Leaflet](https://korigan.github.io/Vue2Leaflet/).
 
 
 ### Plugin author
