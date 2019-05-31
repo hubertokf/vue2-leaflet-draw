@@ -1,4 +1,4 @@
-# vue2-leaflet-draw-toolbar
+# vue2-leaflet-draw
 
 <a href="https://www.npmjs.com/package/vue2-leaflet-draw-toolbar.svg">
   <img src="https://img.shields.io/npm/dw/vue2-leaflet-draw-toolbar.svg" alt="Downloads">
