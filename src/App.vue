@@ -57,6 +57,14 @@ export default {
         
         layer.addTo(map);
       });
+
+      map.on('draw:edited', function (e) {
+        var layers = e.layers;
+
+        layers.eachLayer(function(layer) {
+          this.$emit('onEdit', layer.getLatLngs())
+        });
+      });
     })
   },
 
